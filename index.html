@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Meal Finder</title>
+  </head>
+  <body>
+    
+    <div class="alert alert-success text-center" role="alert">
+      Type an ingredient in the search bar! It could be anything like <br> Chicken - Beef - Rice - Beans
+    </div>
+    <div class="container-fluid">
+      <div class="row d-flex justify-content-center my-5">
+        <div class="col-10 col-md-6">
+          <div class="input-group">
+            <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+              aria-describedby="search-addon" id="searchBar" value="Chicken"/>
+            <button type="button" class="btn btn-primary" id="searchButton">Search</button>
+          </div>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center text-center" id="results">
+        
+      </div>
+      <div class="container" id="content">
+        
+        
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
+
