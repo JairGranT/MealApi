@@ -108,7 +108,7 @@ const embedUrl = (youtubeUrl) => {
 }
 
 //Generates badges with the ingredients of the recipe
-function ingredientBadges(recipe) {
+const ingredientBadges = (recipe) => {
     let ingredients = [];
     let measures = [];
     let badges = '';
